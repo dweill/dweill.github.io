@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/notes/notes.js"></script>
+    <title>A Well of HTML</title>
+    <style type="text/css">
+        
+    </style>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <!-- ALL YOUR MARKUP GOES BELOW HERE -->
+        <a href="https://en.wikipedia.org/wiki/William_Kennedy_Dickson">Wiki</a>
+        <img src="img/cherries.jpg" class="cherry" />
+        <h1>I'm big. <small>I'm not.</small></h1>
+        <h2>I'm tall. <small>I'm small.</small></h2>
+        <h3>I'm large. <small>I'm tiny.</small></h3>
+        <h4>Soy grande. <small>Soy pequeno.</small></h4>
+        <h5>I'm venti. <small>I'm tall(Starbucks' smallest size).</small></h5>
+        <h6>I'm huge. <small>I'm little.</small></h6>
+        <p>This is my paragraph, isn't it neat. This is my paragraph, oh what a treat!</p>
+        <p>They say fortune favors the <b>bold</b>, but who is <i>they</i>? I say who gives a <strong>damn</strong>!</p>
+        <ul>
+            <li>No way, jose!</li>
+            <li>No chance, Lance!</li>
+            <li>No indeedy, Warren Beatty!</li>
+        </ul>
+        <ol>
+            <li>Gold</li>
+            <li>Silver</li>
+            <li>Bronze</li>
+        </ol>
+        <dl>
+            <dt>December 7, 1941</dt>
+            <dt>A date which will live in infamy.</dt>
+            <dt>Santa Claus</dt>
+            <dt>A man who gets stuck in a chimney.</dt>
+        </dl>
+        <form class="bat-form">
+            <div>
+                <label for="name">Name in Bat Signal:</label>
+                <input type="text" id="name"/>
+            </div>
+            <div>
+                <label for="msg">Message in the sky:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div>
+                <label for="mail">Email:</label>
+                <input type="email" id="email"/>
+            </div>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th id="Noc">NOC List</th>
+                </tr>
+                <tr>
+                    <th>Real Name</th>
+                    <th>Code Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ethan Hunt</td>
+                    <td>Ethan Blunt</td>
+                </tr>
+                <tr>
+                    <td>Charlie Sheen</td>
+                    <td>Emilio Estevez</td>
+                </tr>
+                <tr>
+                    <td>Dr. Jekyll</td>
+                    <td>Mr.Hyde</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>Well, well, well,</div>
+        <div>What have we here?</div>
+        <div>Is this the cat everyone's talking about?</div>
+        <div>Ooh I'm really scared!</div>
+        <div class="flex-row">
+            <div>Left</div>
+            <div>Righter</div>
+            <div>More Right</div>
+            <div>Right</div>
+        </div>
+        <div class="image-grid">
+            <div class = "row">
+                <div class="col-md-2"><img src="/projects/well-of-html/img/apple-in-grass.jpg" class="row-img"/></div>
+                <div class="col-md-10">What is it with 2's and apples?</div>
+            </div>
+            <div class = "row">
+                <div class="col-md-2"><img src="/projects/well-of-html/img/cherries.jpg" class="row-img"/></div>
+                <div class="col-md-10">Twas I whom choppied the cherry trea!</div>
+            </div>
+            <div class = "row">
+                <div class="col-md-2"><img src="/projects/well-of-html/img/black-currant.jpg" class="row-img"/></div>
+                <div class="col-md-10">I don't even know what this is?</div>
+            </div>
+        </div>
+        <!-- ALL YOUR MARKUP GOES ABOVE HERE -->
+    </div>
+    <script>
+        $(function () {
+            window.opspark.notes.show();
+        });
+    </script>
+</body>
+
+</html>
